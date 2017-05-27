@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'ProximaNova';
+  src: url('../fonts/ProximaNova-Regular.ttf');
+}
+
+* {
+  outline: none;
+}
+
+body {
+  background: white;
+  margin: 0;
+  overflow: hidden;
+  font-family: ProximaNova;
+  .hide-block {
+    display: none !important;
+  }
+  .show-block {
+    display: block !important;
+  }
+  .ReactVirtualized__Table__row {
+    padding: 0 !important;
+  }
+  .input-filter-box {
+    padding: 5px;
+  }
+}
